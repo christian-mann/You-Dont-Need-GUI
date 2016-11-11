@@ -30,6 +30,7 @@ As a computer expert, we want to be more efficient and do our jobs better. We kn
 1. [remove a file](#removefile)
 1. [remove a folder](#removefolder)
 1. [list folder contents](#listfolder)
+1. [play an mp3](#playanmp3)
 
 ## <a id="copyfile"></a>copy a file
 
@@ -172,6 +173,14 @@ rm -r my_useless_folder
 
 ```
 ls -la my_folder
+```
+
+## <a id="playanmp3"></a>play an mp3 file
+
+**STOP OPENING UP RHYTHMBOX**
+
+```
+mpg321 --verbose file.mp3
 ```
 
 _Remember, you can always google or `man` the commands you are not familiar with._
